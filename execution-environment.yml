@@ -2,7 +2,7 @@
 version: 1
 ansible_config: ansible.cfg
 build_arg_defaults:
-  ANSIBLE_RUNNER_IMAGE: 'quay.io/ansible/ansible-automation-platform-20-ee-minimal-rhel8:latest'
-  PYTHON_BUILDER_IMAGE: 'quay.io/ansible/ansible-automation-platform-20-ee-builder-rhel8:latest'
+  ANSIBLE_RUNNER_IMAGE: 'quay.io/aap/ansible-automation-platform-20-ee-supported-rhel8:latest'
+  PYTHON_BUILDER_IMAGE: 'quay.io/aap/ansible-automation-platform-20-ee-builder-rhel8:latest'
 dependencies:
   galaxy: requirements.yml
