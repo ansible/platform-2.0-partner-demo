@@ -17,6 +17,7 @@ collections:
 ## Edit the ansible.cfg file to add your Ansible Automation Hub Token
 Scroll down to the botton of the file provided and edit the `token` key, to add the Offline Token from [Ansible Automation Hub](https://cloud.redhat.com/ansible/automation-hub/token). Load and copy the token and edit the `ansible.cfg` accordingly
 
+> **_NOTE:_** In order to login to quay, go to your quay Account Settings and Click "Generate Encrypted Password", run the command provided to login to quay from CLI.
 ## Run the following command in the repository after addition to create your own Execution Environment
 ```
 ansible-builder build -v3 -c . -t <container image name>
