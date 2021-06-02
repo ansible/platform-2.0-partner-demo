@@ -12,7 +12,7 @@ Creating an EE with your collection on top of Ansible provided ones
 ```
 ---
 collections:
-  - name: cisco.vyos
+  - name: vyos.vyos
 ```
 ## Edit the ansible.cfg file to add your Ansible Automation Hub Token
 Scroll down to the botton of the file provided and edit the `token` key, to add the Offline Token from [Ansible Automation Hub](https://cloud.redhat.com/ansible/automation-hub/token). Load and copy the token and edit the `ansible.cfg` accordingly
