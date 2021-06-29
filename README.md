@@ -9,14 +9,13 @@ Creating an EE with your collection on top of Ansible provided ones
 
 ## Edit the requirements.yml file to add your collection present on Ansible Automation Hub
 **Example**
-```
+```yaml
 ---
 collections:
   - name: vyos.vyos
 ```
 ## Edit the ansible.cfg file to add your Ansible Automation Hub Token
-Scroll down to the botton of the file provided and edit the `token` key, to add the Offline Token from [Ansible Automation Hub](https://cloud.redhat.com/ansible/automation-hub/token). Load and copy the token and edit the `ansible.cfg` accordingly
-
+Scroll down to the bottom of the file provided and edit the `token` key, to add the Offline Token from [Ansible Automation Hub](https://cloud.redhat.com/ansible/automation-hub/token). Load and copy the token and edit the `ansible.cfg` accordinglym
 > **_NOTE:_** In order to login to quay, go to your quay Account Settings and Click "Generate Encrypted Password", run the command provided to login to quay from CLI.
 ## Run the following command in the repository after addition to create your own Execution Environment
 ```
